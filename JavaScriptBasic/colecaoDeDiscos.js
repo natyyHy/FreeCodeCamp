@@ -19,7 +19,7 @@ const recordCollection = {
     }
   };
   
-  // Altere apenas o código abaixo desta linha
+  //Altere apenas o código abaixo desta linha
   function updateRecords(records, id, prop, value) {
     if(value === "" ){
         delete records[id][prop]
